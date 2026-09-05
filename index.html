@@ -4,96 +4,108 @@
         <meta charset="UTF-8">
 
         <title>Для Любимого Дениски!</title>
+        <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="avatar.jpg" width="250" alt="Денис"/>
-                </td>
-                <td>
+        <div class="container">
+            <div class="info">
+                <img src="avatar.jpg" alt="Денис" class="avatar"/>
+                <div class="info-text">
                     <h1>Дениска</h1>
-                    <p><em>Ты самый <strong>Лучший парень на свете</strong></em></p>
-                    <p><em>Ты мой <strong>Любимый Котик</strong></em></p>
-                </td>
-            </tr>
-        </table>
+                    <p>Ты самый <strong>Лучший парень на свете</strong></p>
+                    <p>Ты мой <strong>Любимый Котик</strong></p>
+                </div>
+            </div>
 
-        <hr>
+            <div class="card bg-yellow" >
+                    <H2>Я люблю тебя за всё!</H2>
+                <ul class="list">
+                    <li>Просто за то что ты есть</li>
+                    <li>Ты — мой человек</li>
+                </ul>
+            </div>
 
-            <H2>Я люблю тебя за всё</H2>
-        <ul type="square">
-            <li>Просто за то что ты есть</li>
-            <li>Ты — мой человек</li>
-        </ul> 
+            <div class="card bg-green">
+                <h2>Что я могу сделать для тебя:</h2>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Всегда</th>
+                        <th>Во всём</th>
+                        <th>Навсегда</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Любить</td>
+                        <td>Поддерживать</td>
+                        <td>Верить в тебя</td>
+                    </tr>
+                    <tr>
+                            
+                        <td>Радовать</td>
+                        <td>Оберегать</td>
+                        <td>Быть рядом</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </div>
 
-        <hr>
+            <div class="card bg-red">
+                <h2>Один звонок до меня:</h2>
+                <ul class="link-list">
+                    <li>
+                        <a href="deniska.html">
+                            <img src="heart.png" width="25" height="25">
+                            Позвони мне!
+                        </a>
+                    </li>
+                
+                </ul>
+            </div>
 
-        <h2>Что я могу сделать для тебя:</h2>
-        <table border="7">
-            <thead>
-            <tr>
-                <th>Всегда</th>
-                <th>Во всём</th>
-                <th>Навсегда</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Любить</td>
-                <td>Поддерживать</td>
-                <td>Верить в тебя</td>
-            </tr>
-                <tr>
-                <td>Радовать</td>
-                <td>Оберегать</td>
-                <td>Быть рядом</td>
-            </tr>
-            </tbody>
-            <tfoot>
-            </tfoot>
-        </table>
+            <div class="contact">
+                <h2>Связаться со мной!</h2>
 
-        <hr>
+                <form action="https://t.me/wyrrtnw">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Твоё имя, Мой Хороший</label>
+                            <input type="text" id="name"
+                            placeholder="Введи своё имя...">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Я жду только тебя</label>
+                            <input type="email" id="email"
+                            placeholder="Введи свою почту...">
+                        </div>
+                    </div>
 
-        <h2>Связаться со мной!</h2>
+                    <div class="form-group">
+                        <label for="text">Твои слова для меня</label>
+                        <br>
+                        <textarea id="text" rows="5" cols="45"></textarea>
+                    </div>
 
-        <form action="/">
-            <label for="name">Твоё имя, Мой Хороший</label>
-            <input type="text" id="name"
-            placeholder="Введи своё имя...">
-            
-            <br>
+                    <input class="btn" type="submit" value="Послать сигнал любви!">  
+                </form>
+            </div>
 
-            <label for="email">Я жду только тебя</label>
-            <input type="email" id="email"
-            placeholder="Введи свою почту...">
+                <h4>Сообщение до меня:</h4>
+                
+                    Discord: <a href="https://discordapp.com/users/.wyrtnw." target="_blank">.wyrtnw.</a>
+                    |
+                    Telegram: <a href="https://t.me/wyrrtnw" target="_blank">@wyrrtnw</a>
+            <div class="position">
+            <div class="box">
+            </div>
+            </div>
+        </div>
+        </div>
 
-            <br>
-
-            <label for="text">Твои слова для меня</label>
-            <br>
-            <textarea id="text" rows="5" cols="45"></textarea>
-
-            <br>
-
-            <input type="submit" value="Послать сигнал любви!">
-            
-            <!--Написать все атрибуты тега input в тетради-->
-        </form>
-
-        <hr>
-        
-        <h2>Сообщение до меня:</h2>
-        <ol type="I">
-            <li>Discord: <a href="https://discordapp.com/users/.wyrtnw." target="_blank">.wyrtnw.</a></li>
-            <li>Telegram: <a href="https://t.me/wyrrtnw" target="_blank">@wyrrtnw</a></li>
-        </ol>
-
-        <hr>
-
-        <h2>Один звонок до меня:</h2>
-        <a href="deniska.html">Позвони мне! </a>
- 
+        <div style="margin-bottom: 500px;"></div>
     </body>
 </html>
